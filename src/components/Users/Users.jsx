@@ -1,11 +1,12 @@
 import './Users.css';
 import React, { useState, useEffect } from 'react';
 import Card from '../Card/Card';
+import Paginador from '../Paginador/Paginador'
 const Users = () => {
   const [page, setPage] = useState(1);
   const [characters , setCharacters] = useState([]);
   
-
+//si un await tiene que haber afuera un stringify
   const fechtRickandmorty = async () => {
     let response = await fetch(`https://rickandmortyapi.com/api/character/?page=${page}`);
     let json = await response.json();
@@ -25,8 +26,7 @@ const Users = () => {
 
   return (
     <div className='users'>
-      <h1>Users</h1>
-      <button onClick={nextPage}>Siguiente</button>
+      <h1>Gestion de usarios</h1>
       {
        characters.map((character) =>{
           return (
@@ -35,6 +35,7 @@ const Users = () => {
           );
        })
       }
+      <Paginador></Paginador>
     </div>
   );
 };

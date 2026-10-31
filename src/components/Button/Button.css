@@ -1,0 +1,24 @@
+.boton {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    margin-right: 1rem;
+}
+
+.boton-editar {
+    background-color: orange;
+}
+
+.boton-eliminar {
+    background-color: #dc3545;
+}
+
+.boton-ver{
+    background-color: blue;
+}
+
+.boton-crear{
+    background-color: green;
+}

@@ -1,10 +1,14 @@
 import './Button.css';
-const Button = ({text, className , callback}) => {
-  return (
-    <button className={className} onClick={callback}>
-      {text} 
-    </button>
-  );
-};
 
-export default Button
+function Boton({ texto, tipo, onClick }) {
+    return (
+        <button
+            className={`boton boton-${tipo}`}
+            onClick={onClick}
+        >
+            {texto}
+        </button>
+    );
+}
+
+export default Boton;
