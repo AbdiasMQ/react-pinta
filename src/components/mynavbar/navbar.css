@@ -1,0 +1,25 @@
+.navbar-pinta .nav-link {
+    color: white !important;
+    padding: 8px 15px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.navbar-pinta .nav-link:hover {
+    background-color: orange;
+    border-color: orange;
+}
+.navbar-pinta{
+    background-color:#1A1A1A;
+;   
+    height: 5rem; 
+}
+
+.titulo-pinta {
+    font-size: 1.9rem !important;
+    font-weight: bold;
+    color: #FF8C00 !important;
+    letter-spacing: 0.1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}

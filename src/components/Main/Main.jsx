@@ -1,4 +1,5 @@
 import './Main.css';
+import Footer from '../Footer/Footer'
 import React from 'react'
 import Navbar from '../mynavbar/navbar';
 import { Outlet } from 'react-router-dom';
@@ -9,9 +10,9 @@ const Main = () => {
     <div className='main'>
         <Navbar></Navbar>
         <main>
-            <h1>holaaaaaaaaaaaaaa</h1>
             <Outlet></Outlet>   
         </main>
+        <Footer></Footer>
 
     </div>
   )
