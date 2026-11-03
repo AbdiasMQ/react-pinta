@@ -1,19 +1,19 @@
 import './Footer.css';
-
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-    <div>
-        <footer className="footer">
-        <p>
-          <a href="https://opensource.org/license/MIT"
-            >Pinta, Inc ⓒ 2026 MIT License </a>
-        </p>
-      </footer>
-    </div>
-  )
-}
+    <footer className="Footer">
+      <p className="Footer-text">
+        <a 
+          href="https://opensource.org/license/MIT"
+          className="Footer-link"
+        >
+          Pinta, Inc ⓒ 2026 MIT License
+        </a>
+      </p>
+    </footer>
+  );
+};
 
-export default Footer
-
+export default Footer;
