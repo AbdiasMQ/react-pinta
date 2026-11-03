@@ -1,0 +1,38 @@
+.Paginacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    gap: 5px;
+}
+
+/* Estilo de los números y botones */
+.Paginacion .page-link {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 8px;
+    margin: 0 2px;
+    transition: all 0.3s ease;
+}
+
+/* Cuando pasás el mouse */
+.Paginacion .page-link:hover {
+    background-color: #ff7a00;
+    color: white;
+    border-color: #ff7a00;
+}
+
+/* Página seleccionada */
+.Paginacion .active .page-link {
+    background-color: #ff7a00;
+    border-color: #ff7a00;
+    color: white;
+}
+
+/* Botones deshabilitados */
+.Paginacion .disabled .page-link {
+    background-color: #333;
+    color: #777;
+    border-color: #444;
+}
