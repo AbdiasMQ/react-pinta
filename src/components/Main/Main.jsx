@@ -1,7 +1,7 @@
 import './Main.css';
 import Footer from '../Footer/Footer'
 import React from 'react'
-import Navbar from '../mynavbar/navbar';
+import Navbar from '../Navbar/Navbar';
 import { Outlet } from 'react-router-dom';
 // el main tiene esos para todos los html menos el login 
 //el main no se toca pipipip

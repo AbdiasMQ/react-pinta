@@ -1,4 +1,4 @@
-.boton {
+.button{
     border: none;
     padding: 8px 12px;
     border-radius: 6px;
@@ -7,18 +7,18 @@
     margin-right: 1rem;
 }
 
-.boton-editar {
+.button-edit {
     background-color: orange;
 }
 
-.boton-eliminar {
+.button-delete {
     background-color: #dc3545;
 }
 
-.boton-ver{
+.button-show {
     background-color: blue;
 }
 
-.boton-crear{
+.button-create {
     background-color: green;
 }
